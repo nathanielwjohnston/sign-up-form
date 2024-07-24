@@ -24,3 +24,9 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+/* Fonts */
+
+@font-face {
+  font-family: "norsebold";
+  src: url("../sign-up-form/Assets/Norse-Bold.otf") format("woff2");
+}
