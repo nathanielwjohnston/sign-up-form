@@ -30,3 +30,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-family: "norsebold";
   src: url("../sign-up-form/Assets/Norse-Bold.otf") format("woff2");
 }
+
+body {
+  font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+}
