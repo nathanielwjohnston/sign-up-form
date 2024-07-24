@@ -31,6 +31,8 @@ p, h1, h2, h3, h4, h5, h6 {
   src: url("../sign-up-form/Assets/Norse-Bold.otf") format("woff2");
 }
 
+/* Stack from https://modernfontstacks.com/ */
+
 body {
   font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
 }
