@@ -36,3 +36,18 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
 }
+
+/* Styling */
+
+.main-container {
+  display: flex;
+}
+
+.image-sidebar {
+  max-height: 100vh;
+  flex: initial;
+}
+
+.info-section {
+  flex: auto;
+}
