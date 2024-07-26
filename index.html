@@ -33,27 +33,36 @@
         <div class="form-input-container">
           <span class="form-inputs">
             <label for="first-name-form-input">FIRST NAME</label>
-            <input id="first-name-form-input" type="text">
+            <input id="first-name-form-input" type="text" required>
+            <span class="name-after"></span>
           </span>
           <div class="form-inputs">
             <label for="last-name-form-input">LAST NAME</label>
-            <input id="last-name-form-input" type="text">
+            <input id="last-name-form-input" type="text" required>
+            <span class="name-after"></span>
           </div>
           <div class="form-inputs">
             <label for="email-form-input">EMAIL</label>
-            <input id="email-form-input" type="email">
+            <input id="email-form-input" type="email" required>
+            <span class="email-after"></span>
           </div>
           <div class="form-inputs">
             <label for="telephone-form-input">PHONE NUMBER</label>
-            <input id="telephone-form-input" type="tel">
+            <input id="telephone-form-input" type="tel" 
+            pattern="[0-9]{10,}" required>
+            <span class="telephone-after"></span>
           </div>
           <div class="form-inputs">
             <label for="password-form-input">PASSWORD</label>
-            <input id="password-form-input" type="password">
+            <input id="password-form-input" type="password" 
+            minlength="8" required>
+            <span class="password-after"></span>
           </div>
           <div class="form-inputs">
             <label for="confirm-password-form-input">CONFIRM PASSWORD</label>
-            <input id="confirm-password-form-input" type="password">
+            <input id="confirm-password-form-input" type="password"
+            minlength="8" required>
+            <span class="password-after"></span>
           </div>
         </div>
       </form>

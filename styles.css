@@ -147,8 +147,41 @@ body {
   box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
 }
 
-.form-inputs input[type=password]:invalid {
+.form-inputs input:invalid {
   outline-color: red;
+}
+
+/* Password Length Prompt */
+.form-inputs input[type=password]:invalid:focus + .password-after::after {
+  content: "Passwords must be 8 characters at least";
+  color: red;
+  font-size: 0.8rem;
+}
+
+/* Email Prompt */
+.form-inputs input[type=email]:invalid:focus + .email-after::after {
+  content: "This is not a valid email";
+  color: red;
+  font-size: 0.8rem;
+}
+
+/* Telephone Prompt */
+.form-inputs input[type=tel]:invalid:focus + .telephone-after::after {
+  content: "This is not a valid telephone number";
+  color: red;
+  font-size: 0.8rem;
+}
+
+/* Name Prompt */
+.form-inputs input[type=text]:invalid:focus + .name-after::after {
+  content: "This is not a valid name";
+  color: red;
+  font-size: 0.8rem;
+}
+
+/* Visual indicator for valid input */
+.form-inputs input:valid {
+  color: #596D48;
 }
 
 button[type=submit] {
