@@ -44,12 +44,13 @@ body {
 }
 
 .image-sidebar {
+  height: 100vh;
   position: relative;
   flex: initial;
 }
 
 .image-sidebar img {
-  max-height: 100vh;
+  height: 100%;
 }
 
 .logo-container {
@@ -85,5 +86,20 @@ body {
 }
 
 .info-section {
-  flex: auto;
+  flex: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.info-section p {
+  padding: 0 0rem 0 4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.italicised {
+  font-style: italic;
 }
