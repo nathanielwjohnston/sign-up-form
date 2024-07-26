@@ -184,6 +184,21 @@ body {
   color: #596D48;
 }
 
+label::after {
+  content: "required";
+  color: white;
+  font-size: 0.8rem;
+  background-color: #596D48;
+  border-radius: 0.2rem;
+  padding: 0.1rem 0.4rem; 
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.1rem;
+}
+
 button[type=submit] {
   padding: 0.5rem 2rem;
   background-color: #596D48;
