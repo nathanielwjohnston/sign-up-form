@@ -44,8 +44,11 @@ body {
 }
 
 .image-sidebar {
-  max-height: 100vh;
   flex: initial;
+}
+
+.image-sidebar img {
+  max-height: 100vh;
 }
 
 .info-section {
