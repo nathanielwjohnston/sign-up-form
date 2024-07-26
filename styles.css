@@ -44,11 +44,32 @@ body {
 }
 
 .image-sidebar {
+  position: relative;
   flex: initial;
 }
 
 .image-sidebar img {
   max-height: 100vh;
+}
+
+.logo-container {
+  position: absolute;
+  width: 100%;
+  top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 50%);
+}
+
+.odin-logo {
+  max-width: 6rem;
+}
+
+.odin-heading {
+  font-family: norsebold;
+  color: white;
+  font-size: 6rem;
 }
 
 .info-section {
