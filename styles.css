@@ -206,6 +206,22 @@ button[type=submit] {
   border: 1px solid;
   border-radius: 0.5rem;
   margin: 2rem;
+  margin-left: 4rem;
   align-self: flex-start;
   cursor: pointer;
+}
+
+.info-section .current-user-reference {
+  align-self: flex-start;
+  padding-left: 4rem;
+}
+
+.info-section .current-user-link {
+  text-decoration: none;
+  color: #596D48;
+}
+
+.info-section .current-user-link:visited {
+  text-decoration: none;
+  color: #596D48;
 }
