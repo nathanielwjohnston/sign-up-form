@@ -72,6 +72,18 @@ body {
   font-size: 6rem;
 }
 
+.image-credit {
+  position: absolute;
+  bottom: 1rem;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.image-credit a, .image-credit a:visited {
+  color: white;
+}
+
 .info-section {
   flex: auto;
 }
