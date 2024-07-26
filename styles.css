@@ -150,3 +150,14 @@ body {
 .form-inputs input[type=password]:invalid {
   outline-color: red;
 }
+
+button[type=submit] {
+  padding: 0.5rem 2rem;
+  background-color: #596D48;
+  color: white;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  align-self: flex-start;
+  cursor: pointer;
+}
